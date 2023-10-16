@@ -6,8 +6,8 @@
   "scripts": {
     "build:esbuild": "esbuild src/js/index.js --bundle --minify --loader:.js=jsx --format=cjs --outfile=public/dist/bundle.js",
     "watch:esbuild": "esbuild src/js/index.js --bundle --minify --loader:.js=jsx --format=cjs --outfile=public/dist/bundle.js --watch",
-    "build:css": "esbuild src/css/style.css --bundle --outfile=public/dist/bundle.css",
-    "watch:css": "esbuild src/css/style.css --bundle --outfile=public/dist/bundle.css --watch",
+    "build:css": "esbuild src/css/style.css --bundle --minify --outfile=public/dist/bundle.css",
+    "watch:css": "esbuild src/css/style.css --bundle --minify --outfile=public/dist/bundle.css --watch",
     "build": "concurrently --kill-others-on-fail npm:build:esbuild npm:build:css",
     "watch": "concurrently --kill-others-on-fail npm:watch:esbuild npm:watch:css"
   },
