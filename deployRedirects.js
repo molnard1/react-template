@@ -1,7 +1,7 @@
 // Single Page Apps for GitHub Pages
 // MIT License
 // https://github.com/rafgraph/spa-github-pages
-var pathSegmentsToKeep = 1;
+var pathSegmentsToKeep = 0;
 
 (function(l) {
   if (l.search[1] === '/' ) {
