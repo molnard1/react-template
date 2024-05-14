@@ -17,13 +17,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^8.2.1",
+    "concurrently": "^8.2.2",
     "esbuild": "0.21.2",
     "opener": "^1.5.2",
-    "serve": "^14.2.1"
+    "serve": "^14.2.3"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
